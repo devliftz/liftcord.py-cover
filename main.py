@@ -82,12 +82,16 @@ async def upd(ctx):
     
     **Cogs**
     *-* `ping.py` <a:loadingcircle:1097220809359110245>
-    *-* `moderation.py` <a:loadingcircle:1097220809359110245>""", color=0xffffff)
+    *-* `moderation.py` <a:loadingcircle:1097220809359110245>
+    *-* `main.py` <a:loadingcircle:1097220809359110245>
+    *-* `owner.py` <a:loadingcircle:1097220809359110245>""", color=0xffffff)
     embed_done = discord.Embed(title="", description=f"""> **Restarting complete**
     
     **Cogs**
     *-* `ping.py` <:check:1097220806624432168>
-    *-* `moderation.py` <:check:1097220806624432168>""", color=0xffffff)
+    *-* `moderation.py` <:check:1097220806624432168>
+    *-* `main.py` <:check:1097220806624432168>
+    *-* `owner.py` <:check:1097220806624432168>""", color=0xffffff)
     loading = await ctx.reply(embed=embed_loading)
     time.sleep(2)
     for filename in os.listdir("./cogs"):
